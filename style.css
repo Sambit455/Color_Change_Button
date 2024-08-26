@@ -1,0 +1,28 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 150px;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  grid-template-rows: repeat(3,150px);
+}
+
+.btn{
+  width: 150px;
+  height: 150px;
+  background-color: aquamarine;
+  border: 1px solid black;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 800;
+  border-radius: 4px;
+}
+
+.red{
+  background-color: red;
+  
+}
